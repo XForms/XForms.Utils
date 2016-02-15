@@ -1,11 +1,10 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using XForms.Utils.Messaging;
 using XForms.Utils.Tests.Mocks;
 
 namespace XForms.Utils.Tests.Messaging
 {
-	[TestFixture()]
+	[TestFixture]
 	public class MessagerTests
 	{
 		[Test]
@@ -46,8 +45,7 @@ namespace XForms.Utils.Tests.Messaging
 		}
 
 		[TestCase(1)]
-		[TestCase(10)]
-		[TestCase(1000)]
+		[TestCase(3)]
 		public void Messager_Unsubscription_Test(int countSend)
 		{
 			var subscriber1 = new FakeSubscriber();
