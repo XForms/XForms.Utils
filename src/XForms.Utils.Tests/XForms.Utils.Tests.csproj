@@ -38,6 +38,8 @@
     <Compile Include="Mocks\FakeOneMessage.cs" />
     <Compile Include="Mocks\FakeTwoMessage.cs" />
     <Compile Include="Mocks\FakeSubscriber.cs" />
+    <Compile Include="Mocks\FakeViewModel.cs" />
+    <Compile Include="Mvvm\ObservableObjectTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

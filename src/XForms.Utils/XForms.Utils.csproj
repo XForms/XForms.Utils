@@ -39,6 +39,7 @@
     <Compile Include="Messaging\IMessage.cs" />
     <Compile Include="Messaging\IMessenger.cs" />
     <Compile Include="Messaging\Messenger.cs" />
+    <Compile Include="Mvvm\ObservableObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
