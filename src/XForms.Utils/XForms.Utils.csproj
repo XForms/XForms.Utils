@@ -40,6 +40,8 @@
     <Compile Include="Messaging\IMessenger.cs" />
     <Compile Include="Messaging\Messenger.cs" />
     <Compile Include="Mvvm\ObservableObject.cs" />
+    <Compile Include="Notifications\DialogService.cs" />
+    <Compile Include="Notifications\IDialogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
